@@ -1,11 +1,11 @@
 <div align="center">
   <img src="./frontend/src/assets/banner.png" alt="Secretary Banner" width="100%">
   
-  # Secretary
+  # the secretary
   
   ### The All-in-One AI-Powered Financial Command Center
   
-  Secretary is your comprehensive financial management platform that consolidates every aspect of your financial life into one intelligent dashboard. From daily transactions to vacation planning and investment strategies, Secretary leverages AI-powered advisors with distinct personalities and expertise to provide personalized guidance for every financial decision.
+  the secretary is your comprehensive financial management platform that consolidates every aspect of your financial life into one intelligent dashboard. From daily transactions to vacation planning and investment strategies, Secretary leverages AI-powered advisors with distinct personalities and expertise to provide personalized guidance for every financial decision.
   
 </div>
 
@@ -24,7 +24,7 @@
 
 ---
 
-## 💎 Unique Featurese
+## 💎 Unique Features
 
 ### 🎯 **Complete Financial Ecosystem**
 Secretary isn't just another budgeting app—it's a **unified platform** that manages everything from daily expenses to long-term investments and dream vacations, eliminating the need for multiple financial tools.
@@ -61,16 +61,14 @@ See everything at a glance: net worth, cash flow, investments, upcoming bills, v
 
 ---
 
+## 📝 Creators
 
-## 📝 License
-
-Built for HackTX 2025. All rights reserved.
+Built by Rishik Kolpekwar, Arush Nandyala, Amogh Thodati, and Nikhil Saravanan.
 
 ---
 
-<div align="center">
-  <p>Made with ❤️ by the Secretary Team</p>
-  <p>
-    <a href="https://github.com/arush-n/secretary">⭐ Star us on GitHub</a>
-  </p>
-</div>
+## 🪪 License
+
+Built in 24 hours for Hack TX. All rights reserved by the creators.
+
+---
