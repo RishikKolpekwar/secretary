@@ -1,110 +1,76 @@
-# Secretary - Personal Finance Dashboard
+<div align="center">
+  <img src="./frontend/src/assets/banner.png" alt="Secretary Banner" width="100%">
+  
+  # Secretary
+  
+  ### The All-in-One AI-Powered Financial Command Center
+  
+  Secretary is your comprehensive financial management platform that consolidates every aspect of your financial life into one intelligent dashboard. From daily transactions to vacation planning and investment strategies, Secretary leverages AI-powered advisors with distinct personalities and expertise to provide personalized guidance for every financial decision.
+  
+</div>
 
-A hackathon project that creates a personal finance dashboard using Capital One's Nessie API for mock bank data and Google Gemini API for AI-powered insights and transaction categorization.
+---
 
-## Project Structure
+## 🚀 Key Features
 
-```
-secretary-hackathon/
-├── backend/
-│   ├── app.py
-│   ├── requirements.txt
-│   └── .env (create this file with your API keys)
-└── frontend/
-    ├── src/
-    │   ├── components/
-    │   │   ├── Header.jsx
-    │   │   ├── Summary.jsx
-    │   │   └── TransactionList.jsx
-    │   ├── App.jsx
-    │   ├── index.css
-    │   └── main.jsx
-    ├── index.html
-    ├── package.json
-    ├── tailwind.config.js
-    ├── postcss.config.js
-    └── vite.config.js
-```
+- **📊 Real-Time Dashboard** - Complete overview of net worth, budgets, assets, and liabilities
+- **🤖 Multi-Personality AI Advisors** - Three distinct advisors with different investment philosophies
+- **💳 Smart Transaction Management** - Automatic AI-powered categorization and trend analysis
+- **📅 Budget Calendar** - Visual budget planning with recurring expense tracking
+- **💰 Investment Portfolio Tracking** - Monitor performance with advisor-specific recommendations
+- **🏖️ Vacation Financial Planner** - Budget trips without compromising financial goals
+- **💬 Intelligent Chatbox** - Context-aware financial advice powered by Google Gemini
+- **⚙️ Synchronized Settings** - Customizable categories, tags, and preferences across all features
 
-## Setup Instructions
+---
 
-### Backend Setup
+## 💎 Unique Featurese
 
-1. Navigate to the backend directory:
-   ```bash
-   cd secretary-hackathon/backend
-   ```
+### 🎯 **Complete Financial Ecosystem**
+Secretary isn't just another budgeting app—it's a **unified platform** that manages everything from daily expenses to long-term investments and dream vacations, eliminating the need for multiple financial tools.
 
-2. Create a virtual environment:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
+### 🧠 **AI Financial Advisors Modeled After Legendary Investors**
+Unlike traditional apps with generic AI responses, Secretary features **three specialized AI advisors** based on the investment philosophies of renowned financial minds:
+- **Warren Buffett Advisor** - Value investing and long-term wealth building strategies focused on quality and patience
+- **Peter Lynch Advisor** - Growth-oriented approach emphasizing thorough research and understanding what you own
+- **Cathie Wood Advisor** - Disruptive innovation and high-growth technology investment strategies
 
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+Each advisor analyzes your financial decisions through their unique lens, providing diverse perspectives that help you understand different investment strategies and make informed choices that align with your risk tolerance and goals.
 
-4. Create a `.env` file with your API keys:
-   ```
-   NESSIE_API_KEY=your_nessie_api_key_here
-   GEMINI_API_KEY=your_gemini_api_key_here
-   ```
+### 🏖️ **Intelligent Vacation Planning**
+The only financial platform that seamlessly integrates **vacation budgeting with your overall financial health**. Plan trips, track expenses, and ensure your dream vacation doesn't derail your financial goals—all with AI-powered forecasting and recommendations.
 
-5. Run the Flask server:
-   ```bash
-   python app.py
-   ```
+### 💬 **Context-Aware AI Chatbox**
+Go beyond simple Q&A. Our **intelligent chatbox understands your complete financial picture** and provides personalized advice based on your spending patterns, budget constraints, investment portfolio, and financial goals—all in natural conversation.
 
-The backend will run on `http://localhost:5001`
+### 📊 **Real-Time Holistic View**
+See everything at a glance: net worth, cash flow, investments, upcoming bills, vacation funds, and spending trends—all synchronized in real-time with **AI-powered categorization and insights**.
 
-### Frontend Setup
+---
 
-1. Navigate to the frontend directory:
-   ```bash
-   cd secretary-hackathon/frontend
-   ```
+## 💻 Tech Stack
 
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
+| Layer | Technologies |
+|-------|-------------|
+| **Frontend** | React, Vite, Tailwind CSS, Lucide Icons |
+| **Backend** | Python, Flask, Flask-CORS |
+| **AI/ML** | Google Gemini 2.5 Flash |
+| **APIs** | Capital One Nessie API |
+| **State Management** | React Hooks, localStorage |
+| **Styling** | Tailwind CSS, Custom Dark Theme |
 
-3. Start the development server:
-   ```bash
-   npm run dev
-   ```
+---
 
-The frontend will run on `http://localhost:3000`
 
-## API Keys Required
+## 📝 License
 
-- **Capital One Nessie API**: Get your API key from [Capital One Developer Portal](https://developer.capitalone.com/)
-- **Google Gemini API**: Get your API key from [Google AI Studio](https://makersuite.google.com/app/apikey)
+Built for HackTX 2025. All rights reserved.
 
-## Features
+---
 
-- **Comprehensive Financial Dashboard**: Complete overview of net worth, budgets, assets, and liabilities
-- **Real-time Transaction Data**: Fetches mock bank transactions from Capital One's Nessie API
-- **AI-Powered Analysis**: Uses Google Gemini to categorize transactions and provide financial insights
-- **Budget Tracking**: Monitor income, expenses, and savings against monthly budgets
-- **Assets & Liabilities Breakdown**: Visual representation of financial portfolio
-- **Net Worth Tracking**: Track net worth with trend visualization
-- **Modern UI**: Clean, dark-themed interface inspired by treasury.sh
-- **Responsive Design**: Works on desktop and mobile devices
-
-## Demo Customer ID
-
-The app uses a hardcoded customer ID (`68f3e5a29683f20dd519e4ea`) for demonstration purposes. In a production environment, this would be dynamically determined based on user authentication.
-
-## Tech Stack
-
-- **Frontend**: React + Vite + Tailwind CSS
-- **Backend**: Python + Flask
-- **APIs**: Capital One Nessie API + Google Gemini API
-- **Styling**: Tailwind CSS with dark theme
-
-## Hackathon Notes
-
-This is a rapid prototype built for a 24-hour Capital One hackathon. The focus is on demonstrating the core concept with a compelling end-to-end user flow rather than production-ready code.
+<div align="center">
+  <p>Made with ❤️ by the Secretary Team</p>
+  <p>
+    <a href="https://github.com/arush-n/secretary">⭐ Star us on GitHub</a>
+  </p>
+</div>
